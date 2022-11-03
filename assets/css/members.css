@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+      }
+
+body {
+    background-color: black;
+}
+
+main {
+    margin-top: 1em;
+}
+
+.container {
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 5px solid orange;
+    
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.input-text:focus {
+    box-shadow: 0px 0px 0px;
+    border-color: greenyellow;
+    outline: 0px;
+}
+
+/* .form-control {
+    border: 1px solid #f8c146;
+} */
+
+.input-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    font-size: 14px;
+    color: white;
+    font-family: 'lato', sans-serif;    
+}
+span b {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-family: 'lato', sans-serif;
+}
+
+.GN{
+    font-family: roc-grotesk-extrawide, sans-serif;
+    font-weight: 650;
+    font-size: 20px;
+    letter-spacing: 1.75px;
+    padding-left: 20px;
+}
+
+.navbar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.btn {
+    color: green;
+}
+
+.list-items {
+    display: inline-block;
+    /* border-top: 1px solid white; */
+    padding: 10px;
+}
+
+.menu {
+    display: none;
+}
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.active {
+    display: block;
+}
+
+
+.metrics {
+    display: grid;
+    }
+
+        h1 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: lato, sans-serif;
+        }
+    
+        h2 {
+            color: #fff;
+            font-style: italic;
+            font-size: 15px;
+            font-family: lato, sans-serif;
+        }
+    
+        h3 {
+            color: #fff;
+            font-size: .50rem;
+            font-weight: 700;
+            font-family: lato, sans-serif;
+        }
+    
+        p {
+            color: #fff;
+            font-size: .30em;
+            font weight: 200;
+            font-family: lato, sans-serif;
+        }
+    
+        /*banner*/
+        .banner {
+            background: radial-gradient(circle, rgba(240, 230, 140, 1) 0%, rgba(187, 124, 33, 0.604079131652661) 100%);
+            border: 1px solid #eceff1;
+            border-radius: 8px;
+            box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+                rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+            margin: auto;
+            padding: 20px;
+        }
+    
+        /*card*/
+        section {
+            flex: 0 auto;
+            padding: 8px;
+            margin-top: 50px;
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: .5em;
+        }
+    
+    
+        .box {
+            width: 33%;
+            background: rgb(77, 121, 144);
+            border: 1px solid #eceff1;
+            border-radius: 8px;
+            box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+                rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+            margin: auto;
+            padding: 20px;
+            margin-bottom: .5em;
+        }
+        
+        /* icons */
+        span {
+            display: inline-block;
+            padding: 10px 20px;
+        }
+    
+        .icon {
+            color: white;
+            width: 10em;
+        }
+
+/* @media all and (max-width: 510px){
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar .container-icon {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        left: 15px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+    .list-items {
+        display: inline-block;
+        font-weight: 100;
+    } 
+}
+         */

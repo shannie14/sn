@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="lato" href="https://fonts.googleapis.com/css?family=Lato:400,600,700&display=swap">
+    <link rel="stylesheet" href="https://use.typekit.net/rsj4mwn.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="/css/dashboard.css" />
+    <link rel="stylesheet" href="/css/search.css" />
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="GN">
+        GOLF NATION
+    </div>
+    <ul class="nav-list" id="navi-list">
+        <li class="list-items">
+            <a href="/">SEARCH</a>
+        </li>
+        <li class="list-items">
+            <a href="./views/members.html">MEMBERS</a>
+        </li>
+        <li class="list-items">
+            <a href="./views/sales.html">PRODUCT SALES</a>
+        </li>
+        <li class="list-items">
+            <a href="./views/dashboard.html">DASHBOARD</a>
+        </li>
+    </ul>
+</nav>
+
+    <h1>YouTube Subscribers</h1>
+    <div id="subscriberCount"></div>
+
+    <h1>YouTube Video Views</h1>
+    <div id="viewCount"></div>
+
+    <h1>YouTube Video Count</h1>
+    <div id="videoCount"></div>
+
+    <button onclick="authenticate().then(loadClient)">authorize and load</button>
+    <button onclick="execute()">execute</button>
+
+
+    <script src="https://kit.fontawesome.com/836e845575.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/youtube.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+
+</body>
+
+</html>

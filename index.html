@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Library</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="lato" href="https://fonts.googleapis.com/css?family=Lato:400,600,700&display=swap">
+  <link rel="stylesheet" href="https://use.typekit.net/rsj4mwn.css">
+  <!-- emoji-->
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="/css/search.css" />
+  
+ 
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="GN">
+    GOLF NATION
+  </div>
+  <ul class="nav-list" id="navi-list">
+    <li class="list-items">
+      <a href="/">SEARCH</a>
+    </li>
+    <li class="list-items">
+      <a href="./views/members.html">MEMBERS</a>
+    </li>
+    <li class="list-items">
+      <a href="./views/sales.html">PRODUCT SALES</a>
+    </li>
+    <li class="list-items">
+      <a href="./views/dashboard.html">DASHBOARD</a>
+    </li>
+  </ul>
+  <!-- Hidden menu
+<div class="menu" id="toggle-button">
+  <div class="menu-line"></div>
+  <div class="menu-line"></div>
+  <div class="menu-line"></div>
+</div>-->
+</nav> 
+
+  <!-- Search -->
+  <main>
+  <div class="container-justify-content-center">
+
+    <div class="row">
+
+      <div class="col-8"><input class="form-control input-text" placeholder="Search..." spellcheck="false" type="text" id="term">
+      </div>
+    
+      <div class="col-4">
+      <button class="btn btn-outline-warning btn-sm" id="search" type="button"><i class="fa fa-search fa-sm" style="color:orange"></i></button>
+      </div>
+      <div class = inst><h1>Search by talent, brand, product (then click <i class="em em-mag" aria-role="presentation" aria-label="LEFT-POINTING MAGNIFYING GLASS"></i>) or click series image below.</h1><p>P.S. For now, to clear search results you must refresh your browser <i class="em em-woman-shrugging" aria-role="presentation" aria-label=""></i></p></div>
+    </div>
+  </div>
+
+  <!-- Series -->
+  <div class="series">
+    <div class="row">
+      <div class="colSeries">
+        <img id="Ambush" style="height:100px" src="/images/Ambush_242x136.png">
+        <img id="Barons" style="height:100px" src="/images/GolfBarons_242x136.png">
+        <img id="Challengers" style="height:100px" src="/images/TheChallengers_242x136.png">
+        <img id="Finding" style="height:100px" src="/images/FindingTheFairway_242x136.png">
+        <img id="Golficity" style="height:100px" src="/images/Golficity_242x136.png">
+      </div>
+    </div>
+  </div>
+  
+  <!-- ??? -->
+
+  <div class = results>
+    <section id="search_results"></section>
+  </div>
+
+
+
+
+  </main>
+  <script src="https://kit.fontawesome.com/836e845575.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+
+</html>
